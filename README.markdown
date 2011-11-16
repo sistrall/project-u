@@ -22,5 +22,7 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Rizzo Elisabetta
 * Brilli Corinna
 
-Il progetto si è avvalso anche della collaborazione di alcuni docenti.
+Il progetto si è avvalso anche della collaborazione di alcuni docenti:
+
+* [Stralla Silvano](http://www.sistrall.it)
 
