@@ -1,4 +1,4 @@
-﻿Analisi e redesign del sito del dell'Università di Torino.
+﻿Analisi e redesign del sito dell'Università di Torino.
 ==========================================================
 
 Progetto sviluppato come esercitazione di gruppo durante il corso "Tecnico produzione multimedia e pagine web" 2011/2012.
