@@ -1,4 +1,4 @@
-﻿Analisi e redesign del sito del dell'Università di Torino.
+﻿Analisi e redesign del sito dell'Università di Torino.
 ==========================================================
 
 Progetto sviluppato come esercitazione di gruppo durante il corso "Tecnico produzione multimedia e pagine web" 2011/2012.
@@ -17,9 +17,12 @@ Autori
 
 Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multimedia e pagine web" tenuto duranto l'anno formativo 2011/2012 presso la sede di Torino dell'agenzia formativa [Immaginazione e lavoro](http://www.immaginazioneelavoro.it/).
 
-* Sara Puggioni
+* Brilli Corinna
 * Gabriele Marangon
+* Rizzo Elisabetta
+* Tania Epifani
 
-Il progetto si è avvalso anche della collaborazione di alcuni docenti.
+Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
+* [Stralla Silvano](http://www.sistrall.it)
 
