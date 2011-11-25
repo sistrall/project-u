@@ -24,6 +24,7 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Sara Borasi (sb)
 * Paolo Picci (pp)
 * Stefania Sirelli (si)
+* Claudia Piazza (cp)
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
