@@ -21,6 +21,7 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Gabriele Marangon
 * Rizzo Elisabetta
 * Tania Epifani
+* Sara Borasi (sb)
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
