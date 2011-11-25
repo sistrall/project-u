@@ -18,6 +18,7 @@ Autori
 Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multimedia e pagine web" tenuto duranto l'anno formativo 2011/2012 presso la sede di Torino dell'agenzia formativa [Immaginazione e lavoro](http://www.immaginazioneelavoro.it/).
 
 * Sara Puggioni
+* Gabriele Marangon
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti.
 
