@@ -28,6 +28,8 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Claudia Piazza (cp)
 * Daniele Raele (dr)
 * Andrea Pallacci (pa)
+* Sara Puggioni (sp)
+* Annalisa D'Acquarica (ad)
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
