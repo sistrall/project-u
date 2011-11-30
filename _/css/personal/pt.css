@@ -1,0 +1,9 @@
+body {
+	background:#A8C3A0;
+}
+
+#glossary dl dd:hover {
+	background:#CCC;
+}
+
+#glossary 
