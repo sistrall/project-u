@@ -8,3 +8,7 @@ body {
 h1,h2,dt {
 	color:#FFF;
 }
+
+#inventory table tr:hover td {
+  background: #FF0;
+}
