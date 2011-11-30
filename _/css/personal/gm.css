@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #EEDBBD;
+}
+
+h1{
+	background:#003F42;
+	color:#FFFFFF;
+}
+
+h2{
+	background:#AADCE3;
+	color:#003F42;
+}
+
+p{
+	background:#FFFFFF;
+}
+
+#glossary dl dd:hover{
+	background: #FBF2E3;
+}
+
+dt{
+	color: #003F42;
+}
+
+table{
+	background: #B5B251;
+}
