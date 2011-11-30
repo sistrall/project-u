@@ -1,5 +1,7 @@
 body{
-	background:#60A9FB;
+	background-image:url(http://101googleimages.com/wp-content/gallery/background/The-best-top-desktop-blue-wallpapers-blue-wallpaper-blue-background-hd-5.jpg);
 }
-h1,h2{background:#0C3;
+#glossary dl dd:hover{
+	background:#0C3;
 }
+
