@@ -21,7 +21,7 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Brilli Corinna (cb)
 * Gabriele Marangon (gm)
 * Rizzo Elisabetta (er)
-* Tania Epifani 
+* Tania Epifani (eg)
 * Sara Borasi (sb)
 * Paolo Picci (pp)
 * Stefania Sirelli (si)
