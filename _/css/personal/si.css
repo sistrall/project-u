@@ -1,3 +1,6 @@
 body {
   background: #EAF2E5;
 }
+#glossary dl dd:hover {
+  background: #ccc;
+  }
