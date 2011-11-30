@@ -31,3 +31,8 @@ body {
 #inventory table td {
   white-space: nowrap;
 }
+
+#inventory table tr:hover td {
+  background: #ccc;
+}
+
