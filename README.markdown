@@ -19,13 +19,14 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 
 * Brilli Corinna (cb)
 * Gabriele Marangon
-* Rizzo Elisabetta
-* Tania Epifani
+* Rizzo Elisabetta (er)
+* Tania Epifani 
 * Sara Borasi (sb)
 * Paolo Picci (pp)
 * Stefania Sirelli (si)
 * Claudia Piazza (cp)
 * Daniele Raele (dr)
+* Andrea Pallacci (pa)
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
