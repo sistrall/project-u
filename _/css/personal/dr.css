@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background:#F90;
+}
+
+h1,h2,dt {
+	color:#FFF;
+}
+
+#inventory table tr:hover td {
+  background: #FF0;
+}
