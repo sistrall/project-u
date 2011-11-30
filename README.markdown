@@ -17,6 +17,8 @@ Autori
 
 Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multimedia e pagine web" tenuto duranto l'anno formativo 2011/2012 presso la sede di Torino dell'agenzia formativa [Immaginazione e lavoro](http://www.immaginazioneelavoro.it/).
 
+
+* Tursi Paolo
 * Fabiana Metello (fm)
 * Brilli Corinna (cb)
 * Gabriele Marangon (gm)
@@ -33,4 +35,6 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
 * [Stralla Silvano](http://www.sistrall.it)
+
+
 
