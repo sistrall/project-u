@@ -1,10 +1,10 @@
 body{
-	background-image:url(http://101googleimages.com/wp-content/gallery/background/The-best-top-desktop-blue-wallpapers-blue-wallpaper-blue-background-hd-5.jpg);
+	background:#AADEFD;
 }
 #glossary dl dd:hover{
 	background:#0C3;
 }
 #inventory td{
-	color:white;
+	color:blu;
 }
 
