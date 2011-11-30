@@ -1,0 +1,12 @@
+body {
+  background: #3C9;
+}
+
+#glossary dl dd:hover {
+  background: #ccc;
+}
+
+tr:nth-child(2n) td {
+	background:#000;
+	color: #FFF;
+}
