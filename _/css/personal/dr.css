@@ -4,3 +4,7 @@
 body {
   background:#F90;
 }
+
+h1,h2,dt {
+	color:#FFF;
+}
