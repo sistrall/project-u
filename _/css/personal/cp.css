@@ -11,6 +11,13 @@ tr:nth-child(2n) td {
 	color: #FFF;
 }
 
-h1, h2 {
-	color: #FFF;
+h2:first-letter {
+	display: block;
+	background: red;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	color: #90F;
+	background: none repeat scroll #0FC;
 }
