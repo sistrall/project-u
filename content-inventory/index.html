@@ -3,9 +3,20 @@
 <head>
   <title>Content Inventory - Project U</title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <script type="text/javascript" src="../_/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="../_/js/base.js"></script>
+  <link rel="stylesheet" type="text/css" href="../_/css/base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="../_/css/personal/empty.css" media="all" id="personal-stylesheet">
 </head>
 <body>
-  
+
+<div id="style-switcher">
+  <select>
+    <option value="empty.css" selected="select">Nessuno</option>
+    <option value="ss.css">Silvano Stralla</option>
+  </select>
+</div>
+
 <div id="intro">
   <h1>Project U</h1>
   <h2>Content Inventory</h2>
@@ -27,7 +38,7 @@
     <dt>Tipo</dt>
     <dd>E' una pagina web? Un file PDF? Un documento Word? Un'immagine?</dd>
     <dt>Topics</dt>
-    <dd>Contenuti della pagina, rappresentati da una serie di semplici parole chiave separate da virgola.</dd>
+    <dd>Contenuti della pagina, rappresentati da una serie di semplici parole chiave separate da virgola. Obiettivo: deve saltarmi alla mente il contenuto quando rileggo i topics.</dd>
     <dt>Note</dt>
     <dd>Eventuali note sul contenuto.</dd>
   </dl>
@@ -37,6 +48,7 @@
   <h2>Tabella dei contenuti</h2>
   
   <table>
+    
     <tr>
       <th>ID</th>
       <th>Label</th>
@@ -45,14 +57,34 @@
       <th>Topics</th>
       <th>Note</th>
     </tr>
+    
+    <tr>
+      <td>cb.1</td>
+      <td>Trasparenza, valutazione e merito: Trasparenza, valutazione e merito</td>
+      <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/trasparenza7</td>
+      <td>PAG WEB con link esterno</td>
+      <td>descrizione generale del ruolo della pagina, email x aggiornamenti pag, legge sulla trasparenza, img-logo laterale</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>cb.2</td>
+      <td>Trasparenza, valutazione e merito: Giornate della Trasparenza</td>
+      <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/giornate_trasparenza1</td>
+      <td>PAG WEB con link esterni</td>
+      <td>descrizione delle giornate della trasparenza, link esterno della Delibera, descrizione della prima giornata dell trasparenza con relativo link esterno, videos  </td>
+      <td></td>
+    </tr>
+
     <tr>
       <td>ss.0</td>
       <td>Home page</td>
       <td>http://www.unito.it/</td>
       <td>Pagina web</td>
       <td>news, profili, rettore, banner, primo piano</td>
-      <td></td>
+	  <td></td>
     </tr>
+    
   </table>
 </div>
 
