@@ -33,11 +33,11 @@ Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multi
 * Sara Puggioni (sp)
 * Annalisa D'Acquarica (ad)
 * Denis Sereno (ds)
->>>>>>> origin/master
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
-* [Stralla Silvano](http://www.sistrall.it)
+* [Stralla Silvano](http://www.sistrall.it) (ss)
+* Ugo Casalone (uc)
 
 
 
