@@ -1,345 +1,608 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dth">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
   <title>Content Inventory - Project U</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <script type="text/javascript" src="../_/js/jquery-1.7.1.min.js"></script>
   <script type="text/javascript" src="../_/js/base.js"></script>
-  <link rel="stylesheet" type="text/css" href="../_/css/base.css" media="all">
-  <link rel="stylesheet" type="text/css" href="../_/css/personal/empty.css" media="all" id="personal-stylesheet">
+  <link rel="stylesheet" type="text/css" href="../_/css/base.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="../_/css/personal/empty.css" media="all" id="personal-stylesheet" />
 </head>
-<body>
+<body> 
 
 <div id="style-switcher">
   <select>
-
-    <option value="empty.css" selected="select">Nessuno</option>
+    <option value="empty.css">Nessuno</option>
     <option value="ap.css">Andrea Pallacci</option>
-    <option value="ge.1.css">Gaetana Epifani</option>
+    <option value="ge.css">Gaetana Epifani</option>
     <option value="ss.css">Silvano Stralla</option>
     <option value="pt.css">Paolo Tursi</option>
+<<<<<<< HEAD
 	<option value="gm.css">Gabriele Marangon</option>
+=======
+    <option value="gm.css">Gabriele Marangon</option>
+>>>>>>> origin/master
     <option value="si.css">Stefania Sirelli</option>
     <option value="sp.css">Sara Puggioni</option>
     <option value="fm.css">Fabiana Metello</option>
     <option value="dr.css">Daniele Raele</option>
     <option value="er.css">Elisabetta Rizzo</option>
+    <option value="cp.css">Claudia</option>
   </select>
 </div>
 
-<div id="intro">
-  <h1>Project U</h1>
-  <h2>Content Inventory</h2>
-  <p>L'inventario dei contenuti è una delle prime fasi — se non proprio la fase iniziale — dell'operazione di restyling di un sito: <strong>se non so che cosa contiene, come\posso ridisegnarlo?</strong></p>
-</div>
+<h1>Project U</h1>
 
-<div id="glossary">
-  <h2>Glossario dei campi</h2>
+<div id="intro" class="tab">
+  <h2 title="Content">Content Inventory</h2>
+  <div class="inner">
+    <p>L'inventario dei contenuti è una delle prime fasi — se non proprio la fase iniziale — dell'operazione di restyling di un sito: <strong>se non so che cosa contiene, come\posso ridisegnarlo?</strong></p>
+  </div><!-- end .inner -->
+</div><!-- end .tab -->
+
+<div id="glossary" class="tab">
+  <h2 title="Glossario">Glossario dei campi</h2>
+  <div class="inner">
+    <p>Di seguito un breve glossario da tenere a portata di mano per compilare correttamente i campi della tabella di inventario.</p>
   
-  <p>Di seguito un breve glossario da tenere a portata di mano per compilare correttamente i campi della tabella di inventario.</p>
-  
-  <dl>
-    <dt>ID</dt>
-    <dd>E' l'identificativo del contenuto: utile in seguito, per far riferimento ad un contenuto nel resto della documentazione.</dd>
-    <dt>Label</dt>
-    <dd>Contraddistingue il contenuto: nel caso di una pagina HTML è il contenuto del tag <code>title</code>.</dd>
-    <dt><span class="caps">URL</span></dt>
-    <dd>L'indirizzo a cui il contenuto è disponibile.</dd>
-    <dt>Tipo</dt>
-    <dd>E' una pagina web? Un file PDF? Un documento Word? Un'immagine?</dd>
-    <dt>Topics</dt>
-    <dd>Contenuti della pagina, rappresentati da una serie di semplici parole chiave separate da virgola. Obiettivo: deve saltarmi alla mente il contenuto quando rileggo i topics.</dd>
-    <dt>Note</dt>
-    <dd>Eventuali note sul contenuto.</dd>
-  </dl>
-</div>
+    <dl>
+      <dt>ID</dt>
+      <dd>E' l'identificativo del contenuto: utile in seguito, per far riferimento ad un contenuto nel resto della documentazione.</dd>
+      <dt>Label</dt>
+      <dd>Contraddistingue il contenuto: nel caso di una pagina HTML è il contenuto del tag <code>title</code>.</dd>
+      <dt><span class="caps">URL</span></dt>
+      <dd>L'indirizzo a cui il contenuto è disponibile.</dd>
+      <dt>Tipo</dt>
+      <dd>E' una pagina web? Un file PDF? Un documento Word? Un'immagine?</dd>
+      <dt>Topics</dt>
+      <dd>Contenuti della pagina, rappresentati da una serie di semplici parole chiave separate da virgola. Obiettivo: deve saltarmi alla mente il contenuto quando rileggo i topics.</dd>
+      <dt>Note</dt>
+      <dd>Eventuali note sul contenuto.</dd>
+    </dl>
+  </div><!-- end .inner -->
+</div><!-- end .tab -->
 
-<div id="inventory">
-  <h2>Tabella dei contenuti</h2>
-  
-  <table>
+<div id="inventory" class="tab">
+  <h2 title="Tabella">Tabella dei contenuti</h2>
+  <div class=".inner">
+    <table>
 
-    <tr>
-      <th>ID</th>
-      <th>Label</th>
-      <th><span class="caps">URL</span></th>
-      <th>Tipo</th>
-      <th>Topics</th>
-      <th>Note</th>
-    </tr>
-    
-    <tr>
-
-      <td>cb.1</td>
-      <td>Trasparenza, valutazione e merito: Trasparenza, valutazione e merito</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/trasparenza7</td>
-      <td>PAG WEB con link esterno</td>
-      <td>descrizione generale del ruolo della pagina, email x aggiornamenti pag, legge sulla trasparenza, img-logo laterale</td>
-
-      <td>cp.1</td>
-      <td>Ateneo e organizzazione</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/ateneo7</td>
-      <td>PAG WEB</td>
-      <td>descrizione della sezione, log-in alla pagina studente, immagine laterale rappresentativa della sezione</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.2</td>
-      <td>Ateneo e organizzazione: Presentazione dell'ateneo</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/presentazione_ateneo1</td>
-      <td>PAG WEB</td>
-      <td>descrizione delle sottosezioni</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-
-      <td>cb.2</td>
-      <td>Trasparenza, valutazione e merito: Giornate della Trasparenza</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/giornate_trasparenza1</td>
-      <td>PAG WEB con link esterni</td>
-      <td>descrizione delle giornate della trasparenza, link esterno della Delibera, descrizione della prima giornata dell trasparenza con relativo link esterno, videos  </td>
-
-      <td>cp.3</td>
-      <td>Ateneo e organizzazione: Seicento anni di storia</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P78400464051292496749763</td>
-      <td>PAG WEB</td>
-      <td>descrizione della storia dell'ateneo, link alla sezione About Unito, link esterni a documenti</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.4</td>
-      <td>Ateneo e organizzazione: Il sigillo dell'Università</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P78400364051292496552342</td>
-      <td>PAG WEB</td>
-      <td>descrizione della storia del sigillo, link alla pagina su normativa grafica e uso del logo,link esterni a documenti</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.5</td>
-      <td>Ateneo e organizzazione: Statistiche di Ateneo</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P38200325101266940711984</td>
-      <td>PAG WEB</td>
-      <td>link esterni a documenti che espongono numeri e attività sui principali ambiti di azione dell'Ateneo, link esterni a documenti</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.6</td>
-      <td>Ateneo e organizzazione: Galleria Fotografica</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P82400518701296039747567</td>
-      <td>PAG WEB</td>
-      <td>link a fotografie</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.7</td>
-      <td>Ateneo e organizzazione: Organi Centrali</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/organi_centrali7</td>
-      <td>PAG WEB</td>
-      <td>informazioni sugli organismi dell'Ateneo, link a pagine di approfondimento</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.8</td>
-      <td>Ateneo e organizzazione: Rettore</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/rettore3</td>
-      <td>PAG WEB</td>
-      <td>informazioni sul Rettore, contatti, link a pagine di approfondimento</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.9</td>
-      <td>Ateneo e organizzazione: Comunicazioni del Rettore</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/rettore_comunicazioni1</td>
-      <td>PAG WEB</td>
-      <td>informazioni dal Rettore, link alle comunicazioni del Rettore</td>
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>cp.10</td>
-      <td>Ateneo e organizzazione: Prorettore</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/prorettore3</td>
-      <td>PAG WEB</td>
-      <td>informazioni sul Prorettore, contatti</td>
-      <td></td>
-    </tr>
-
-	<tr>
-      <td>dr.1</td>
-      <td>Servizi per gli studenti</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/servizi_studenti9</td>
-      <td>Pagina web</td>
-      <td>testo,immagine</td>
-      <td></td>
-    </tr>
-    
-	<tr>
-      <td>pa.1</td>
-      <td>Ricerca Scientifica</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/P29400142101265106486725</td>
-      <td>pagina web</td>
-      <td>testo,documenti pdf,link,immagine</td>
-      <td></td>
-    </tr>
-	
-	<tr>
-	  <td>gm.0</td>
-      <td>Relazioni sindacali: Relazioni sindacali</td>
-      <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relazioni_sindacali7">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relazioni_sindacali7</a></td>
-      <td>Pagina web</td>
-      <td>Relazioni sindacali, info, approfondimenti, link, e-mail</td>
-      <td></td>
-	</tr>
-    
-    <tr>
-      <td>si.O1</td>
-      <td>Servizio Sanitario Nazionale</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P84800276611298021973903</td>
-      <td>Pagina web</td>
-      <td>immagine sanitaria, testo </td>
-    </tr>
-    
-    <tr>
-      <td>dr.2</td>
-      <td>Servizi per gli studenti:Orientamento</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/P31600112311251280696150</td>
-      <td>Pagina web</td>
-      <td>testo,immagine,contatti</td>
-      <td></td>
-    </tr>
-	
-	<tr>
-	  <td>gm.1</td>
-      <td>Relazioni sindacali: Accordi e contratti</td>
-      <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/accordi5">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/accordi5</a></td>
-      <td>Pagina web</td>
-      <td>Contratti, accordi, archivio, link a documenti pdf</td>
-      <td></td>
-	</tr>
-	
-	<tr>
-	  <td>gm.2</td>
-      <td>Relazioni sindacali: Conto annuale</td>
-      <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relsind_Contoannuale1">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relsind_Contoannuale1</a></td>
-      <td>Pagina web</td>
-      <td>Documenti pdf conto annuale</td>
-      <td></td>
-	</tr>
-
-    <tr>
-      <td>eg.1</td>
-      <td>Didattica</td>
-      <td>http://www.unito.it</td>
-      <td>pagina web</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/didattica9<br />
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>ge.2</td>
-      <td>Didattica: Immatricolazione e iscrizioni</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/immatricolazioni_iscrizioni1</td>
-      <td>pagina web</td>
-      <td>link immatricolazione e iscrizioni<br />
-      <td></td>
-    </tr>
-    
-     <tr>
-      <td>ge.3</td>
-      <td>Contenuto pagina Immatricolazione e iscrizioni</td>
-      <td>http://www.unito.it/unitoWAR/appmanager/istituzionale/servizi_studenti1?_nfpb=true&_pageLabel=P37400165941266920716486 </td>
-      <td>pagina web</td>
-      <td>links immatricolazione e iscrizioni: ANNO ACCADEMICO 2011-2012, SE SEI GIA' ISCRITTO AD UNITO, Approfondimenti e link correlati<br />
-      <td></td>
-    </tr>
-    
-    <tr>
-      <td>ge.4</td>
-      <td>Didattica: Corsi di Laurea I e II livello</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/corso_I_II_liv9 </td>
-      <td>pagina web</td>
-      <td>testi e link correlati: regolamenti didattica, banca dati MIUR, ICON<br />
-      <td></td>
-    </tr>
+      <tr>
+        <th>ID</th>
+        <th>Label</th>
+        <th><span class="caps">URL</span></th>
+        <th>Tipo</th>
+        <th>Topics</th>
+        <th>Note</th>
+      </tr>
     
       <tr>
-      <td>ge.5</td>
-      <td>Didattica: Agraria</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/agraria7</td>
-      <td>pagina web</td>
-      <td>Elenco Corsi di laurea e Corsi di laurea Magistrali, link: La Guida dello studente, Offerta formativa MIUR<br />
-      <td></td>
-    </tr>
+        <td>ss.0</td>
+        <td>Home page</td>
+        <td>http://www.unito.it/</td>
+        <td>Pagina web</td>
+        <td>news, profili, rettore, banner, primo piano</td>
+  	    <td></td>
+      </tr>
     
-    <tr>
-      <td>ge.6</td>
-      <td>Didattica: Economia</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/economia7</td>
-      <td>pagina web</td>
-      <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR<br />
-      <td></td>
-    </tr>
+      <tr>
+        <td>cb.1</td>
+        <td>Trasparenza, valutazione e merito: Trasparenza, valutazione e merito</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/trasparenza7</td>
+        <td>PAG WEB con link esterno</td>
+        <td>descrizione generale del ruolo della pagina, email x aggiornamenti pag, legge sulla trasparenza, img-logo laterale</td>
+      </tr>
     
-    <tr>
-      <td>ge.7</td>
-      <td>Didattica: Farmacia</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/farmacia7</td>
-      <td>pagina web</td>
-      <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR<br />
-      <td></td>
-    </tr>
+      <tr>
+        <td>cp.1</td>
+        <td>Ateneo e organizzazione</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/ateneo7</td>
+        <td>PAG WEB</td>
+        <td>descrizione della sezione, log-in alla pagina studente, immagine laterale rappresentativa della sezione</td>
+        <td></td>
+      </tr>
     
-    <tr>
-      <td>ge.8</td>
-      <td>Didattica: Giurisprudenza</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/giurisprudenza7</td>
-      <td>pagina web</td>
-      <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR<br />
-      <td></td>
-    </tr>
+      <tr>
+        <td>cp.2</td>
+        <td>Ateneo e organizzazione: Presentazione dell'ateneo</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/presentazione_ateneo1</td>
+        <td>PAG WEB</td>
+        <td>descrizione generale del ruolo della pagina, email x aggiornamenti pag, legge sulla trasparenza, img-logo sezione laterale</td>
+        <td></td>
+      </tr>
     
-       <tr>
-      <td>ge.9</td>
-      <td>Didattica: Lettere e Filosofia</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/lettere_e_filosofia7</td>
-      <td>pagina web</td>
-      <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR<br />
-      <td></td>
-    </tr>
+      <tr>
+        <td>cb.2</td>
+        <td>Trasparenza, valutazione e merito: Giornate della Trasparenza</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/giornate_trasparenza1</td>
+        <td>PAG WEB con link esterni</td>
+        <td>descrizione delle giornate della trasparenza, link esterno della Delibera, descrizione della prima giornata dell trasparenza con relativo link esterno, videos, img-logo sezione laterale  </td>
+        <td></td>
+      </tr>
+  
+      <tr>
+        <td>cb.3</td>
+        <td>Trasparenza, valutazione e merito: Programma per la trasparenza e l'integrità</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/P83000128421296491388350</td>
+        <td>PAG WEB con 3 link esterni</td>
+        <td>descrizione dei 3 link esterni riguardanti il programma annuale attuale, il prospetto riepilogativo, il 1°Stato di Attuazione, img-logo sezione laterale</td>
+        <td></td>
+      </tr>
     
-	<tr>
-      <td>ss.0</td>
-      <td>Home page</td>
-      <td>http://www.unito.it/</td>
-      <td>Pagina web</td>
-      <td>news, profili, rettore, banner, primo piano</td>
-	  <td></td>
-    </tr>
+      <tr>
+        <td>cb.4</td>
+        <td>Trasparenza, valutazione e merito: Piano e relazione sulla performance</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/piano_performance1</td>
+        <td>PAG WEB con 2 link esterni</td>
+        <td>descrizione pag, 2 link esterni: legislatura e doc uffiale, sezione laterale: img-logo e pdf del documento ufficiale citato</td>
+        <td></td>
+      </tr>
     
-    <tr>
-      <td>er0</td>
-      <td>Enti e Imprese</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/enti_imprese/enti_imprese7</td>
-      <td>Pagina web</td>
-      <td>Job Placement Imprese, AlmaLaurea Imprese, procedure di gara indette dall'Università,elenco professionisti, .Atlante delle professioni.</td>
-	</tr>
+      <tr>
+        <td>cb.5</td>
+        <td>Trasparenza, valutazione e merito: Dati relativi al personale</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/dati_personale1</td>
+        <td>PAG WEB con 2 link esterni, </td>
+        <td>descrizione dei dati disponibili nei link a six della pag</td>
+        <td></td>
+      </tr>
     
-     <tr>
-      <td>sp0</td>
-      <td>Home page senza grafica</td>
-      <td>http://www.unito.it/</td>
-      <td>Pagina web</td>
-      <td>visualizza la pagina </td>
-	</tr>   
+      <tr>
+        <td>cb.6</td>
+        <td>Trasparenza, valutazione e merito: Dati relativi ai dirigenti</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/dati_dirigenti1</td>
+        <td>PAG WEB con tabella anagrafica e link esterni</td>
+        <td>tabella anagrafica, con link esterni dei CV e delle retribuzioni annuali</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cb.7</td>
+        <td>Trasparenza, valutazione e merito: Curricula dei titolari di posizioni organizzative</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/curricula_titolari_posizioni_organizzative1</td>
+        <td>PAG WEB con tabella anagrafica e link esterni</td>
+        <td>PAG WEB tabella anagrafica Curricula dei titolari di posizioni organizzative</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cb.8</td>
+        <td>Trasparenza, valutazione e merito: Dati del personale politico-amministrativo</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/trasparenza/dati_personale_politico_amministrativo1</td>
+        <td>PAG WEB con link esterni dei dati del personale politico-amministrativo</td>
+        <td>descrizione delle giornate della trasparenza, link esterno della Delibera, descrizione della prima giornata dell trasparenza con relativo link esterno, videos  </td>
+      </tr>
+    
+      <tr>
+        <td>cp.3</td>
+        <td>Ateneo e organizzazione: Seicento anni di storia</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P78400464051292496749763</td>
+        <td>PAG WEB</td>
+        <td>descrizione della storia dell'ateneo, link alla sezione About Unito, link esterni a documenti</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.4</td>
+        <td>Ateneo e organizzazione: Il sigillo dell'Università</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P78400364051292496552342</td>
+        <td>PAG WEB</td>
+        <td>descrizione della storia del sigillo, link alla pagina su normativa grafica e uso del logo,link esterni a documenti</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.5</td>
+        <td>Ateneo e organizzazione: Statistiche di Ateneo</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P38200325101266940711984</td>
+        <td>PAG WEB</td>
+        <td>link esterni a documenti che espongono numeri e attività sui principali ambiti di azione dell'Ateneo, link esterni a documenti</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.6</td>
+        <td>Ateneo e organizzazione: Galleria Fotografica</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/P82400518701296039747567</td>
+        <td>PAG WEB</td>
+        <td>link a fotografie</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.7</td>
+        <td>Ateneo e organizzazione: Organi Centrali</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/organi_centrali7</td>
+        <td>PAG WEB</td>
+        <td>informazioni sugli organismi dell'Ateneo, link a pagine di approfondimento</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.8</td>
+        <td>Ateneo e organizzazione: Rettore</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/rettore3</td>
+        <td>PAG WEB</td>
+        <td>informazioni sul Rettore, contatti, link a pagine di approfondimento</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.9</td>
+        <td>Ateneo e organizzazione: Comunicazioni del Rettore</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/rettore_comunicazioni1</td>
+        <td>PAG WEB</td>
+        <td>informazioni dal Rettore, link alle comunicazioni del Rettore</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>cp.10</td>
+        <td>Ateneo e organizzazione: Prorettore</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ateneo1/prorettore3</td>
+        <td>PAG WEB</td>
+        <td>informazioni sul Prorettore, contatti</td>
+        <td></td>
+      </tr>
 
+      <tr>
+        <td>dr.1</td>
+        <td>Servizi per gli studenti</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/servizi_studenti9</td>
+        <td>Pagina web</td>
+        <td>testo,immagine</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>pa.1</td>
+        <td>Ricerca Scientifica</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/P29400142101265106486725</td>
+        <td>pagina web</td>
+        <td>testo,documenti pdf,link,immagine</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>gm.0</td>
+        <td>Relazioni sindacali: Relazioni sindacali</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relazioni_sindacali7">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relazioni_sindacali7</a></td>
+        <td>Pagina web</td>
+        <td>Relazioni sindacali, info, approfondimenti, link, e-mail</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>si.0</td>
+        <td>Unito e il Servizio Sanitario Nazionale</td>
+        <td>si.O1</td>
+        <td>Servizio Sanitario Nazionale</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P84800276611298021973903</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, testo di presentazione dei servizi offerti</td>
+      </tr>
+    
+      <tr>
+        <td>si.1</td>
+        <td>Servizio Sanitario Nazionale: Atti e convenzioni con il S.S.N.</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P81000172951294651563747</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link a pdf </td>
+      </tr>
+    
+      <tr>
+        <td>si.2</td>
+        <td>Servizio Sanitario Nazionale: Servizi per il personale convenzionato con il S.S.N.</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P81801095881295885992583</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link a pdf, documenti, pdf, due liste con avvisi di selezione e avvisi di riferimento </td>
+      </tr>
+    
+      <tr>
+        <td>si.3</td>
+        <td>Servizio Sanitario Nazionale: Medici in formazione specialistica</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P81801195881295886045550</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link, lista, indirizzo mail, accedi a myunito </td>
+      </tr>
+    
+      <tr>
+        <td>si.4</td>
+        <td>Servizio Sanitario Nazionale: Medici in formazione specialistica: Normativa</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P8340107261297252443696</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link a pdf, due liste </td>
+      </tr>
+    
+      <tr>
+        <td>si.5</td>
+        <td>Servizio Sanitario Nazionale: Medici in formazione specialistica: Modulistica</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P8340117261297252502675</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link a pdf, lista </td>
+      </tr>
+    
+      <tr>
+        <td>si.6</td>
+        <td>Servizio Sanitario Nazionale: Medici in formazione specialistica: Convenzioni</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P83800462681297252542968</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link a pdf a convenzioni, scadenze</td>
+      </tr>
+    
+      <tr>
+        <td>si.7</td>
+        <td>Servizio Sanitario Nazionale:Servizio Educazione Continua in Medicina</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P81801295881295886189318</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link esterni alle facoltà, liste, link a offerte formative, link ad agenzia per servizi sanitari regionali</td>
+      </tr>
+    
+      <tr>
+        <td>si.8</td>
+        <td>Servizio Sanitario Nazionale:Reti, computer e applicativi on line</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/unito-ssn/P81801395881295886370071</td>
+        <td>Pagina web</td>
+        <td>immagine sanitaria, link esterni, liste, mail, login</td>
+      </tr>
+    
+      <tr>
+        <td>dr.2</td>
+        <td>Servizi per gli studenti:Orientamento</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/P31600112311251280696150</td>
+        <td>Pagina web</td>
+        <td>testo,immagine,contatti</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>gm.1</td>
+        <td>Relazioni sindacali: Accordi e contratti</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/accordi5">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/accordi5</a></td>
+        <td>Pagina web</td>
+        <td>Contratti, accordi, archivio, link a documenti pdf</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>gm.2</td>
+        <td>Relazioni sindacali: Conto annuale</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relsind_Contoannuale1">http://www.unito.it/unitoWAR/page/istituzionale/relazioni_sindacali/relsind_Contoannuale1</a></td>
+        <td>Pagina web</td>
+        <td>Documenti pdf conto annuale</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>ge.1</td>
+        <td>Didattica</td>
+        <td>http://www.unito.it</td>
+        <td>pagina web</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/didattica9</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.2</td>
+        <td>Didattica: Immatricolazione e iscrizioni</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/immatricolazioni_iscrizioni1</td>
+        <td>pagina web</td>
+        <td>link immatricolazione e iscrizioni</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.3</td>
+        <td>Contenuto pagina Immatricolazione e iscrizioni</td>
+        <td>http://www.unito.it/unitoWAR/appmanager/istituzionale/servizi_studenti1?_nfpb=true&amp;_pageLabel=P37400165941266920716486 </td>
+        <td>pagina web</td>
+        <td>links immatricolazione e iscrizioni: ANNO ACCADEMICO 2011-2012, SE SEI GIA' ISCRITTO AD UNITO, Approfondimenti e link correlati</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.4</td>
+        <td>Didattica: Corsi di Laurea I e II livello</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/corso_I_II_liv9 </td>
+        <td>pagina web</td>
+        <td>testi e link correlati: regolamenti didattica, banca dati MIUR, ICON</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.5</td>
+        <td>Didattica: Agraria</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/agraria7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Corsi di laurea Magistrali, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.6</td>
+        <td>Didattica: Economia</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/economia7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.7</td>
+        <td>Didattica: Farmacia</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/farmacia7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.8</td>
+        <td>Didattica: Giurisprudenza</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/giurisprudenza7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.9</td>
+        <td>Didattica: Lettere e Filosofia</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/lettere_e_filosofia7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ge.10</td>
+        <td>Didattica: Lingue e Letterature Straniere</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/lingue_e_letterature7</td>
+        <td>pagina web</td>
+        <td>Elenco Corsi di laurea e Approfondimenti, link: La Guida dello studente, Offerta formativa MIUR</td>
+        <td></td>
+      </tr>
+        
+      <tr>
+        <td>er0</td>
+        <td>Enti e Imprese</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/enti_imprese/enti_imprese7</td>
+        <td>Pagina web</td>
+        <td>Job Placement Imprese, AlmaLaurea Imprese, procedure di gara indette dall'Università,elenco professionisti, 		.Atlante delle professioni.Contiene link a sito esterno</td>
+      </tr>
+    
+      <tr>
+        <td>sp0</td>
+        <td>Home page senza grafica</td>
+        <td>http://www.unito.it/</td>
+        <td>Pagina web</td>
+        <td>visualizza la pagina </td>
+      </tr>   
+
+      <tr>
+        <td>er1</td>
+        <td>Bandi di gara: appalti e contratti</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/enti_imprese/appalti5</td>
+        <td>Pagina web</td>
+        <td>Bandi di gara,appalti,spese in economia,concessioni.Contiene link negli approfondimenti</td>
+      </tr>
+    
+      <tr>
+        <td>pt.0</td>
+        <td>Guida all'uso del Portale</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/guida_portale/P30000174611265277171321</td>
+        <td>Pagina web</td>
+        <td>work in progress</td>
+      </tr>
+
+      <tr>
+        <td>gm.3</td>
+        <td>Riferimenti, contatti, PEC, reclami e segnalazioni</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/main/P35000175331252657119578">http://www.unito.it/unitoWAR/page/istituzionale/main/P35000175331252657119578</a></td>
+        <td>Pagina web</td>
+        <td>indirizzi e link a Riferimenti, contatti, PEC, reclami e segnalazioni</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>gm.4</td>
+        <td>Note legali, copyright, privacy e logo</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/main/P35000175331252657119578">http://www.unito.it/unitoWAR/page/istituzionale/main/P35000175331252657119578</a></td>
+        <td>Pagina web</td>
+        <td>Elenco regole sito (copyright,note legali,ecc..), modelli/documenti formato pdf,</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>gm.5</td>
+        <td>Accessibilità</td>
+        <td><a href="http://www.unito.it/unitoWAR/page/istituzionale/main/P35000375331252657258716">http://www.unito.it/unitoWAR/page/istituzionale/main/P35000375331252657258716</a></td>
+        <td>Pagina web</td>
+        <td>link a Legge Stanca e CNIPA (certificato di accessibilità)</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>gm.6</td>
+        <td>In collaborazione con: CINECA</td>
+        <td><a href="http://www.cineca.it/">http://www.cineca.it/</a></td>
+        <td>link</td>
+        <td>link a CINECA</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>dr.3</td>
+        <td>Servizi per gli studenti:Delegati della facoltà</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/P31600512311251299346507</td>
+        <td>Pagina web</td>
+        <td>testo,contatti dei delegati facoltà</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>dr.4</td>
+        <td>Servizi per gli studenti:Giornate di Orientamento</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/P31800318741251367162990</td>
+        <td>Pagina web</td>
+        <td>testo giornate orientamento,contatti,documento Pdf guida orientamento</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>dr.5</td>
+        <td>Servizi per gli studenti:Porte aperte</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/servizi_studenti1/P31800518741251368119849</td>
+        <td>Pagina web</td>
+        <td>testo incontri con docenti e studenti, lezioni e visite guidate presso le strutture universitarie,calendario incontri pdf</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>ap.2</td>
+        <td>costo del personale</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/costo_personale_ricerca1</td>
+        <td>Pagina web</td>
+        <td> testo,link  alle tabelle dei costi del personale,Riferimenti e contatti</td>
+      </tr>
+    
+      <tr>
+        <td>fm0</td>
+        <td>Gli Speciali di Unito</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/P30000474611265277544006</td>
+        <td>Pagina Web</td>
+        <td>Link a diverse iniziative e attività extra dell'Ateneo</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>fm1</td>
+        <td>Gli Speciali di Unito: Atlante delle Professioni</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/Speciali_atlante1</td>
+        <td>Pagina Web</td>
+        <td>Link a "Progetto Fixo", link all'Atlante delle Professioni, Link al Job Placement, link poadcast, logo "Atlante delle Professioni", login MyUnito, documento PDF</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <td>fm2</td>
+        <td>Gli Speciali di Unito: Cultura e sport</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/Speciali_cultura1</td>
+        <td>Pagina Web</td>
+        <td>Link esterni relativi a: eventi in città, "Futura", Orchestra Sinfonica Nazionale RAI, progetti universitari, teatro Stabile Torino, università e sport, login MyUnito, immagine "Speciali"</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>fm3</td>
+        <td>Gli Speciali di Unito: I giochi di Unito</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/Speciali_giochi1</td>
+        <td>Pagina Web</td>
+        <td>Promozioni di diversi giochi rivolti agli studenti universitari con link esterno (regolamento) e info utili</td>
+        <td></td>
+      </tr>
+
+<<<<<<< HEAD
     <tr>
       <td>pt.0</td>
       <td>Guida all'uso del Portale</td>
@@ -399,50 +662,169 @@
       <td>Pagina web</td>
       <td> testo,link  alle tabelle dei costi del personale,Riferimenti e contatti</td>
 	</tr>
-
-       <td>ap.3</td>
-      <td>Progetti di ricerca di Ateneo</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/P82600272961296461617529</td>
-      <td>Pagina web</td>
-      <td> testo,documenti pdf,link,link bando,lista documenti</td>
-	</tr>
-    </tr>
-       <td>ap.4</td>
-      <td>Ricerca nazionale</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/Ricerca_nazionale1</td>
-      <td>Pagina web</td>
-      <td> testo,link approfondimenti,</td>
-	</tr>
-    </tr>
-       <td>ap.5</td>
-      <td>Ricerca scientifica: Programmi di ricerca di rilevante interesse nazionale (PRIN)</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/Ricerca_nazionale1</td>
-      <td>Pagina web</td>
-      <td>testo,link ad avvisi,link ad assegnazioni di dipartimenti</td>
-	</tr>
+=======
+      <tr>
+        <td>fm4</td>
+        <td>Gli Speciali di Unito: Inaugurazione Anno Accademico</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/Speciali_inaugurazione1</td>
+        <td>Pagina Web</td>
+        <td>Sezione dedicata alle Inaugurazioni dell'Anno Accademico, a partire dal 2005/2006, per ognuna delle quali è disponibile una sottosezione con notizie e approfondimenti, raggiungibile dal menu a sinistra.</td>
+        <td></td>
+      </tr>
+   
+      <tr>
+        <td>fm5</td>
+        <td>Gli Speciali di Unito: Lauree Honoris Causa</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/lauree_honoris_causa1</td>
+        <td>Pagina Web</td>
+        <td>Sottosezione del menu tramite cui si giunge alle lauree Honoris Causa consegnate, a partire dal 2005 a personaggi illustri;link pdf e multimediali</td>
+        <td></td>
+      </tr> 
     
-    <tr>
-          <td>eg.2</td>
-      <td>Immatricolazione e iscrizioni</td>
-      <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/immatricolazioni_iscrizioni1</td>
-      <td>pagina web</td>
-      <td>link pagine correlate<br />
-      <td></td>
-    </td>
+      <tr>
+        <td>fm6</td>
+        <td>Gli Speciali di Unito: Machiavellismo e Machiavellismi</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/Speciali_machiavellismo1</td>
+        <td>Pagina Web</td>
+        <td>Info su progetto di ricerca e dibattito in presenza e su internet; immagine su Machiavelli; link a portale Hypermachiavellism e ad articolo della Repubblica; login MyUnito; immagine Hypermachiavellism</td>
+        <td></td>
+      </tr> 
     
+      <tr>
+        <td>fm7</td>
+        <td>Gli Speciali di Unito: I migliori laureati</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali1/P39400161731267091068548</td>
+        <td>Pagina Web</td>
+        <td>Sottosezione del menu principale dagli anni '92-'93 ai 2008-'09 che illustra i nomi dei laureati premiati con riconoscimento onorifico</td>
+        <td></td>
+      </tr> 
+    
+      <tr>
+        <td>fm8</td>
+        <td>Gli Speciali di Unito: Il Portale:Viaggio nel tempo</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/Speciali2_portale1</td>
+        <td>Pagina Web</td>
+        <td>Rappresentazione dell'evoluzione grafica del Portale dell'Ateneo nel corso degli anni; link a immagini.</td>
+        <td></td>
+      </tr> 
+    
+      <tr>
+        <td>fm9</td>
+        <td>Gli Speciali di Unito: Professori emeriti e onorari</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/P40200137621267437069175</td>
+        <td>Pagina Web</td>
+        <td>Lista dei nomi dei professori onorari. Sottosezione del menu principale con seguente divisione: cognomi A-J, cognomi L-Z, professori onorari.</td>
+        <td></td>
+      </tr>    
+    
+      <tr>
+        <td>fm10</td>
+        <td>Gli Speciali di Unito: UniTo e la riforma universitaria</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/P63400582151279787265576</td>
+        <td>Pagina Web</td>
+        <td>Lista di link pdf agli atti ufficiali dell'Ateneo, sugli interventi del Rettore, link di approfondimento</td>
+        <td></td>
+      </tr>    
+    
+      <tr>
+        <td>fm11</td>
+        <td>Gli Speciali di Unito: UniTo People - Community e Social Network</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/Speciali2_people1</td>
+        <td>Pagina Web</td>
+        <td>Link esterni a servizi online (blog,pagine,ecc), propri dell'Università di Torino</td>
+        <td></td>
+      </tr>  
+    
+      <tr>
+        <td>fm12</td>
+        <td>Gli Speciali di Unito: UniTo per i 150 anni dell'Unità d'Italia</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/unito_150_anni1</td>
+        <td>Pagina Web</td>
+        <td>Le iniziative dell'Ateneo per festeggiare i 150 anni dell'Unità d'Italia; link multimediali e pdf, info relative al programma dell'ateneo; link esterni relativi ai festeggiamenti in generale</td>
+        <td></td>
+      </tr> 
+    
+      <tr>
+        <td>fm13</td>
+        <td>Gli Speciali di Unito: UniTo IDEM</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/speciali2/Speciali2_idem1</td>
+        <td>Pagina Web</td>
+        <td>Info sul progetto "IDEM"; link diversi per approfondimenti</td>
+        <td></td>
+      </tr>   
+>>>>>>> origin/master
+
+      <tr>
+        <td>ap.3</td>
+        <td>Progetti di ricerca di Ateneo</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/P82600272961296461617529</td>
+        <td>Pagina web</td>
+        <td> testo,documenti pdf,link,link bando,lista documenti</td>
+        <td></td>
+      </tr>
+    
+      <tr>
+         <td>ap.4</td>
+        <td>Ricerca nazionale</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/Ricerca_nazionale1</td>
+        <td>Pagina web</td>
+        <td> testo,link approfondimenti,</td>
+      </tr>
+    
+      <tr>
+         <td>ap.5</td>
+        <td>Ricerca scientifica: Programmi di ricerca di rilevante interesse nazionale (PRIN)</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/ricerca1/Ricerca_nazionale1</td>
+        <td>Pagina web</td>
+        <td>testo,link ad avvisi,link ad assegnazioni di dipartimenti</td>
+      </tr>
+    
+      <tr>
+        <td>pp.0</td>
+        <td>Lavorare in Unito</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/lavorare_UniTo/lavorare_UniTo7</td>
+        <td>Pagina web</td>
+        <td>informazioni relative alle procedure per l'accesso all'Università, pdf documenti</td>
+      </tr>
+    
+      <tr>
+        <td>pp.1</td>
+        <td>Concorsi e selezioni</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/lavorare_UniTo/concorsi5</td>
+        <td>Pagina web</td>
+        <td>link personale tecnico amministrativo,personale docente e ricercatori,incarichi professionali,assegni di ricerca,approfondimenti, pdf calendario festività, pdf regolamento accesso impieghi P.A</td>
+      </tr>
+    
+      <tr>
+        <td>pp.2</td>
+        <td>Trasferimenti e Mobilità di comparto</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/lavorare_UniTo/trasferimenti_mobilita_comp5</td>
+        <td>Pagina web</td>
+        <td>informazioni commenti e-mail, link</td>
+      </tr>
+     
+      <tr>
+        <td>eg.2</td>
+        <td>Immatricolazione e iscrizioni</td>
+        <td>http://www.unito.it/unitoWAR/page/istituzionale/didattica/immatricolazioni_iscrizioni1</td>
+        <td>pagina web</td>
+        <td>link pagine correlate</td>
+        <td></td>
+      </tr>
+
+    </table>
+  </div><!-- end .inner -->
+</div><!-- end .tab -->
+
+<div id="beahviour" class="tab">
+	<h2 title="Comportamenti">Comportamenti</h2>
+	<div class="inner">
+  	<p>Di seguito elenchiamo particolare comportamenti del sito che non è possibile mettere in evidenza mediante l'inventario</p>
 	
-
-  </table>
-</div>
-
-<div id="beahviour">
-	<h2>Comportamenti</h2>
-	<p>Di seguito elenchiamo particolare comportamenti del sito che non è possibile mettere in evidenza mediante l'inventario</p>
-	
-	<h3>Naviga senza grafica</h3>
-	<p>visualizza la home page come un unico elenco</p>
-
-</div>
+  	<h3>Naviga senza grafica</h3>
+  	<p>visualizza la home page come un unico elenco</p>
+  </div><!-- end .inner -->
+</div><!-- end .tab -->
 
 </body>
 </html>
