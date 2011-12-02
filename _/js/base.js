@@ -12,6 +12,7 @@ $(document).ready(function(){
   if(cookie_stylesheet = readCookie('stylesheet')) {
     $("#personal-stylesheet").attr("href", "../_/css/personal/" + cookie_stylesheet);
   }
+  creaTab();
 });
 
 /* 
@@ -40,5 +41,40 @@ function readCookie(name) {
 }
 
 function eraseCookie(name) {
-  createCookie(name,"",-1);
-}
+
+  createCookie(name,"",-1);}
+  
+  function creaTab(){
+  $('h1').after('<div id="menu"></div>');
+  // imposto lo stile per il div di ID MENU
+  $('#menu').css({	  
+	  'background':'#eee',
+	  'padding' :'3px 10px'
+  });
+  
+  $('.tab').each(function(){
+  //cicla per tutti (each) i classe tab
+	var myTitle = $(this).find('h2').attr('title');  
+	$('#menu').append('<span>' + myTitle + '</span>');
+	$('#menu span').css({
+		'margin-right': '20px',
+		'cursor': 'pointer'//seconda regola css
+	  });
+	  
+	  $('.tab').hide();
+	  $('.tab').eq(0).show();
+	  $('#menu span').eq(0).addClass('active-tab');
+	  
+	  $('#menu span').click(function(){
+		  $('.tab').hide(); 
+		  var myIndex = $(this).index();
+		  $('.tab').eq(myIndex).show();
+		  $('#menu span').removeClass('active-tab');
+		  $(this).addClass('active-tab');
+ 
+  });
+	//-this- restitutisce il soggetto su cui si sta compiendo l'azione
+	//.find è sinstassi di jquery
+	//quindi cerca this - cerca gli h2 dentro this- attribute può leggere e/o scrivere
+  });
+  }
