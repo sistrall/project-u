@@ -1,8 +1,10 @@
 body{
-	background:#AADEFD;
+	background:#CDDDF7;
 }
 #glossary dl dd:hover{
 	background:#0C3;
 }
+h1{text-shadow: 2px 2px 2px #000000;
+filter: dropshadow(color=#000000, offx=2, offy=2);}
 
 
