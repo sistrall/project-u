@@ -78,4 +78,7 @@ function creaTab(){
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
