@@ -1,0 +1,38 @@
+body{
+	background:#C9C;
+	}
+	#intro h1{
+	background:#09C;}
+	
+	#intro:hover h1{
+	background:#6CC;}
+	
+	#intro h2{
+	background:#09C;}
+	
+	#intro:hover h2{
+	background:#6CC;}
+	
+	#glossary h2{
+	background:#09C;}
+		
+	#glossary:hover h2{
+	background:#6CC;}
+	
+	#glossary dt{
+	background:#003;
+	font:italic;
+	color:#FFF;}
+	
+	#inventory h2{
+	background:#09C;}
+	
+	#inventory:hover h2{
+	background:#6CC;}
+	
+	#inventory tr th{
+	background:#669;
+	color:#FFF;}
+	
+	#inventory tbody{
+	background:#FFF;}

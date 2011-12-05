@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background:#F90;
+}
+
+h1,h2,dt {
+	color:#FFF;
+	text-shadow: 3px 3px 2px #000000;
+filter: dropshadow(color=#000000, offx=3, offy=3); 
+}
+
+#inventory table tr:hover td {
+  background: #FF0;
+}
+#glossary:hover dd {
+  background:#C00
+}
+
