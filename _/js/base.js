@@ -65,7 +65,7 @@ function creaTab(){
   $('.tab').hide(); // nascondo tutti i div di classe tab
   $('.tab').eq(0).show(); // rendo visibile il div di classe tab di indice 0
   $('#menu span').eq(0).addClass('active-tab'); // aggiungo la classe active-tab al primo span
-  
+
   $('#menu span').click(function(){
     $('.tab').hide(); // nascondo tutti i div di classe tab
     var myIndex = $(this).index(); // mi restituisce l'indice dell'elemento clickato
@@ -74,3 +74,7 @@ function creaTab(){
     $(this).addClass('active-tab'); // aggiungo la classe active-tab allo span su cui ho fatto il click
   });
 }
+
+
+
+
