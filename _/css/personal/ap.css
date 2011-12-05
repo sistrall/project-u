@@ -1,5 +1,10 @@
 body{
-	background:#60A9FB;
+	background:#AADEFD;
 }
-h1,h2{background:#0C3;
+#glossary dl dd:hover{
+	background:#0C3;
 }
+#inventory td{
+	color:blu;
+}
+
