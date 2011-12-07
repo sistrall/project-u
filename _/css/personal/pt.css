@@ -2,6 +2,28 @@ body {
 	background:#A8C3A0;
 }
 
+body.benchmarking #main {
+	float: left;
+}
+
+body.benchmarking #main h2 {
+	width: 300px;
+	background: grey;
+	color: white;
+	font-weight:bold;
+}
+body.benchmarking #descrizione {
+	float: right;
+}
+body.benchmarking #descrizione h3 {
+	width: 600px;
+	background: white;
+	color: black;
+	font-weight:bold;
+}
+
 #glossary dl dd:hover {
 	background:#CCC;
 }
+
+#glossary 

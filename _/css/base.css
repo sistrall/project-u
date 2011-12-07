@@ -29,15 +29,17 @@ body {
 }
 
 #inventory table td {
-  vertical-align: top;
+  white-space: nowrap;
 }
 
 #inventory table tr:hover td {
   background: #ccc;
 }
 
-.active-tab {
-  background: #000;
-  padding: 2px 4px;
-  color: #fff;
+.miaclasse {
+background: green;
+padding: 2px 4px;
+color: red;
+
 }
+
