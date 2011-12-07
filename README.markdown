@@ -18,18 +18,18 @@ Autori
 Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multimedia e pagine web" tenuto duranto l'anno formativo 2011/2012 presso la sede di Torino dell'agenzia formativa [Immaginazione e lavoro](http://www.immaginazioneelavoro.it/).
 
 
-* Tursi Paolo
+* Tursi Paolo (pt)
 * Fabiana Metello (fm)
 * Brilli Corinna (cb)
 * Gabriele Marangon (gm)
 * Rizzo Elisabetta (er)
-* Tania Epifani (eg)
+* Tania Epifani (ge)
 * Sara Borasi (sb)
 * Paolo Picci (pp)
 * Stefania Sirelli (si)
 * Claudia Piazza (cp)
 * Daniele Raele (dr)
-* Andrea Pallacci (pa)
+* Andrea Pallacci (ap)
 * Sara Puggioni (sp)
 * Annalisa D'Acquarica (ad)
 * Denis Sereno (ds)
