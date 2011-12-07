@@ -10,3 +10,42 @@ tr:nth-child(2n) td {
 	background:#000;
 	color: #FFF;
 }
+
+
+
+
+body.benchmarking {
+	width: 950px;
+	margin: 0 auto;
+	background:#0CF;
+			}
+		
+body.benchmarking #header{	
+	background-color:#39F;
+	color:#FFF;
+	text-align:center;		
+	}
+	
+body.benchmarking #menu1 {
+	background:#C00;
+	color:#006;
+	width:950px;
+	float:right;
+	text-align:center;		
+	}
+	
+body.benchmarking #menu2 {
+	color:#006;
+	width:250px;
+	float:left;
+	text-align:center;		
+	}
+		
+body.benchmarking #box-testo {
+	background-color:#FFF;
+	color:#006;
+	width:700px;
+	height:800px;
+	float:left;
+	text-align:center;		
+	}
