@@ -1,6 +1,6 @@
 /*
- * Style switcher code
- */
+* Style switcher code
+*/
 $(document).ready(function(){
   // Cambia il foglio di stile e salva un cookie
   $("#style-switcher select").change(function(){
@@ -9,7 +9,7 @@ $(document).ready(function(){
     return false;
   });
 
-  // legge i coockie gi√† presenti sulla macchina dell'utente e cambia il foglio di stile
+  // legge i coockie gi‡ presenti sulla macchina dell'utente e cambia il foglio di stile
   if(cookie_stylesheet = readCookie('stylesheet')) {
     $("#personal-stylesheet").attr("href", "../_/css/personal/" + cookie_stylesheet);
   }
@@ -17,10 +17,10 @@ $(document).ready(function(){
   creaTab(); // richiamo la funzione per la creazione dei tab
 });
 
-/* 
- * Cookie Functions 
- * http://www.quirksmode.org/js/cookies.html
- */
+/*
+* Cookie Functions
+* http://www.quirksmode.org/js/cookies.html
+*/
 function createCookie(name, value, days) {
   if(days) {
     var date = new Date();
@@ -47,7 +47,7 @@ function eraseCookie(name) {
 }
 
 function creaTab(){
-  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr√† i tab
+  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr‡ i tab
   $('#menu').css({
     'background' :'#eee',
     'padding' : '3px 10px'
@@ -74,7 +74,4 @@ function creaTab(){
     $(this).addClass('active-tab'); // aggiungo la classe active-tab allo span su cui ho fatto il click
   });
 }
-
-
-
 
