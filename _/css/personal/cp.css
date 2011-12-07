@@ -1,5 +1,5 @@
 body {
-	background: #90F;
+	background: #9CF;
 }
 
 #glossary dl dd:hover {
@@ -18,6 +18,6 @@ h2:first-letter {
 }
 
 h1, h2, h3 {
-	color: #90F;
+	color: #399;
 	background: none repeat scroll #0FC;
 }
