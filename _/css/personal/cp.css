@@ -1,0 +1,23 @@
+body {
+	background: #90F;
+}
+
+#glossary dl dd:hover {
+	background: #CCC;
+}
+
+tr:nth-child(2n) td {
+	background: #000;
+	color: #FFF;
+}
+
+h2:first-letter {
+	display: block;
+	background: red;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	color: #90F;
+	background: none repeat scroll #0FC;
+}
