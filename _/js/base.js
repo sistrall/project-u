@@ -108,16 +108,3 @@ function nuovoCambioTab(){
     $('#menu').append('<span id="' + mytab + '">' + myTitle + '</span>');
   });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
