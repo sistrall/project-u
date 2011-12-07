@@ -1,6 +1,6 @@
 /*
- * Style switcher code
- */
+* Style switcher code
+*/
 $(document).ready(function(){
   // Cambia il foglio di stile e salva un cookie
   $("#style-switcher select").change(function(){
@@ -9,11 +9,12 @@ $(document).ready(function(){
     return false;
   });
 
-  // legge i coockie gi√† presenti sulla macchina dell'utente e cambia il foglio di stile
+  // legge i coockie gi‡ presenti sulla macchina dell'utente e cambia il foglio di stile
   if(cookie_stylesheet = readCookie('stylesheet')) {
     $("#personal-stylesheet").attr("href", "../_/css/personal/" + cookie_stylesheet);
   }
   
+<<<<<<< HEAD
   //creaTab(); // richiamo la funzione per la creazione dei tab
   nuovoCambioTab();
 <<<<<<< HEAD
@@ -21,12 +22,15 @@ $(document).ready(function(){
 =======
 >>>>>>> origin/master
   modificaTabella();
+=======
+  creaTab(); // richiamo la funzione per la creazione dei tab
+>>>>>>> origin/master
 });
 
-/* 
- * Cookie Functions 
- * http://www.quirksmode.org/js/cookies.html
- */
+/*
+* Cookie Functions
+* http://www.quirksmode.org/js/cookies.html
+*/
 function createCookie(name, value, days) {
   if(days) {
     var date = new Date();
@@ -53,7 +57,7 @@ function eraseCookie(name) {
 }
 
 function creaTab(){
-  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr√† i tab
+  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr‡ i tab
   $('#menu').css({
     'background' :'#eee',
     'padding' : '3px 10px'
@@ -69,6 +73,7 @@ function creaTab(){
   });
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cambiaTab(0);//richiamo la funzione per accedere al primo tab
   $('#menu span').click(function(){
     var myIndex = $(this).index(); // mi restituisce l'indice dell'elemento clickato
@@ -83,18 +88,13 @@ function creaTab(){
   });
 }
 function cambiaTab(num){
+=======
+>>>>>>> origin/master
   $('.tab').hide(); // nascondo tutti i div di classe tab
-  $('.tab').eq(num).show(); // rendo visibile l'elemento di classe tab dell'indice myIndex
-  $('#menu span').removeClass('active-tab'); // tolgo la classe active-tab a tutti gli span dentro #menu
-  $('#menu span').eq(num).addClass('active-tab'); // aggiungo la classe active-tab allo span su cui ho fatto il click  
-}
+  $('.tab').eq(0).show(); // rendo visibile il div di classe tab di indice 0
+  $('#menu span').eq(0).addClass('active-tab'); // aggiungo la classe active-tab al primo span
 
-function modificaTabella(){
-  $('#inventory table tr').each(function(){
-    var myUrl = $(this).find('td').eq(2).html();
-    var oldText = $(this).find('td').eq(1).html();
-    $(this).find('td').eq(1).html('<a href="' + myUrl + '">' +  oldText + '</a>');
-
+<<<<<<< HEAD
     // metodo alternativo per modificare l'html e nella seconda riga modificare il valore dell'attributo href
     //$(this).find('td').eq(1).html('<a href="#">' +  oldText + '</a>');
     //$(this).find('td').eq(1).find('a').attr('href', myUrl);
@@ -174,3 +174,14 @@ function nuovoCambioTab(){
   }
 	
 	
+=======
+  $('#menu span').click(function(){
+    $('.tab').hide(); // nascondo tutti i div di classe tab
+    var myIndex = $(this).index(); // mi restituisce l'indice dell'elemento clickato
+    $('.tab').eq(myIndex).show(); // rendo visibile l'elemento di classe tab dell'indice myIndex
+    $('#menu span').removeClass('active-tab'); // tolgo la classe active-tab a tutti gli span dentro #menu
+    $(this).addClass('active-tab'); // aggiungo la classe active-tab allo span su cui ho fatto il click
+  });
+}
+
+>>>>>>> origin/master
