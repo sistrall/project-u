@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 #glossary dt {
-  font-weight: bold;
+  font-weight: normal;
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #glossary dd {
@@ -16,7 +16,7 @@ body {
 
 #inventory {
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #inventory table td,
@@ -25,19 +25,14 @@ body {
 }
 
 #inventory table th {
-  background: #eee;
+  background: #0F0;
 }
 
 #inventory table td {
-  vertical-align: top;
+  white-space: inherit;
 }
 
 #inventory table tr:hover td {
-  background: #ccc;
+  background: #F00;
 }
 
-.active-tab {
-  background: #000;
-  padding: 2px 4px;
-  color: #fff;
-}
