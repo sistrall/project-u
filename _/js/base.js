@@ -9,7 +9,7 @@ $(document).ready(function(){
     return false;
   });
 
-  // legge i coockie gi√† presenti sulla macchina dell'utente e cambia il foglio di stile
+  // legge i coockie gi‡ presenti sulla macchina dell'utente e cambia il foglio di stile
   if(cookie_stylesheet = readCookie('stylesheet')) {
     $("#personal-stylesheet").attr("href", "../_/css/personal/" + cookie_stylesheet);
   }
@@ -47,7 +47,7 @@ function eraseCookie(name) {
 }
 
 function creaTab(){
-  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr√† i tab
+  $('h1').after('<div id="menu"></div>'); // creo il div di id menu che conterr‡ i tab
   $('#menu').css({
     'background' :'#eee',
     'padding' : '3px 10px'
