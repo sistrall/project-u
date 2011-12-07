@@ -29,11 +29,11 @@ body {
 }
 
 #inventory table td {
-<<<<<<< HEAD
+
  vertical-align : top;
-=======
+
   vertical-align: top;
->>>>>>> origin/master
+
 }
 
 #inventory table tr:hover td {
