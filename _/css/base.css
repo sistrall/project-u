@@ -29,10 +29,15 @@ body {
 }
 
 #inventory table td {
-  white-space: nowrap;
+  vertical-align: top;
 }
 
 #inventory table tr:hover td {
   background: #ccc;
 }
 
+.active-tab {
+  background: #000;
+  padding: 2px 4px;
+  color: #fff;
+}
