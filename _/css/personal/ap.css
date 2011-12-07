@@ -4,7 +4,12 @@ body{
 #glossary dl dd:hover{
 	background:#0C3;
 }
-h1{text-shadow: 2px 2px 2px #000000;
-filter: dropshadow(color=#000000, offx=2, offy=2);}
+h1{
+   text-shadow: 2px 2px 2px #000000;
+   filter: dropshadow(color=#000000, offx=2, offy=2);
+   text-align: center;
+   font-size: 50px;
+   background:  url ('Z:\ALLIEVI\Andrea Pallacci\html\h1.gif') repeat x;
+}
 
 
