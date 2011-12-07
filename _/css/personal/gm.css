@@ -31,3 +31,17 @@ dt{
 table{
 	background: #B5B251;
 }
+
+body.benchmarking {
+	background: #B5B251;
+}
+
+body.benchmarking h1 {
+	background: #FFFFFF;
+	padding: 10px 0 10px 20px;
+}
+
+body.benchmarking #header {
+	width:820px;
+
+}
