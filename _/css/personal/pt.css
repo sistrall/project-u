@@ -65,6 +65,7 @@ body.benchmarking #main ul li {
 	text-decoration:none;
 	font-weight: bold;
 }
+
 body.benchmarking #sidebar_descrizione {
 	width: 592px;
 	float: right;
@@ -92,9 +93,10 @@ body.benchmarking #footer p{
 	padding-top: 20px;
 	padding-bottom:20px;
 	font-size: 24px;
-	color: #FFF;
-	text-decoration:none;
-	
+	text-decoration:none;	
+}
+body.benchmarking #footer p a{
+	color: #F90;
 }
 
 #glossary dl dd:hover {
