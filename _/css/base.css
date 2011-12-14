@@ -29,7 +29,7 @@ body {
 }
 
 #inventory table td {
-  vertical-align: top;
+  white-space: nowrap;
 }
 
 #inventory table tr:hover td {

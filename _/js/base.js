@@ -79,6 +79,9 @@ function cambiaTab(num){
   $('#menu span').eq(num).addClass('active-tab'); // aggiungo la classe active-tab allo span su cui ho fatto il click  
 }
 
+<<<<<<< HEAD
+
+=======
 function modificaTabella(){
   $('#inventory table tr').each(function(){
     var myUrl = $(this).find('td').eq(2).html();
@@ -108,3 +111,4 @@ function nuovoCambioTab(){
     $('#menu').append('<span id="' + mytab + '">' + myTitle + '</span>');
   });
 }
+>>>>>>> origin/master
