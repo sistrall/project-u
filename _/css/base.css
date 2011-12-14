@@ -36,10 +36,8 @@ body {
   background: #ccc;
 }
 
-.miaclasse {
-background: green;
-padding: 2px 4px;
-color: red;
-
+.active-tab {
+  background: #000;
+  padding: 2px 4px;
+  color: #fff;
 }
-
