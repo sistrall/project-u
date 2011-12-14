@@ -12,8 +12,6 @@ tr:nth-child(2n) td {
 }
 
 h2:first-letter {
-	display: block;
-	background: red;
 	text-decoration: underline;
 }
 
@@ -21,3 +19,114 @@ h1, h2, h3 {
 	color: #399;
 	background: none repeat scroll #0FC;
 }
+
+
+
+
+.bm {
+	background: #FFF;
+	font-family: "Lucida Sans";
+}
+
+.bm #header {
+	
+}
+
+.bm #wrapper {
+	width: 650px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background: #999;
+	box-shadow: 5px 5px 10px 4px rgba(100, 100, 100, 1);
+}
+
+.bm #main h2, h3 {
+	color: #FFF;
+	background: none repeat scroll #666;
+	display: block;
+	padding: 5px;
+	font-size: 16px;
+	margin: 0px;
+}
+
+.bm h2:first-letter {
+	text-decoration: none;
+}
+
+.bm #sidebar {
+	float: left;
+	width: 228px;
+	margin-left: 20px;
+	font-weight: bold;
+	background: #666;
+}
+
+.bm #sidebar ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0px;
+}
+
+.bm #sidebar a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.bm #main {
+	float: right;
+	width: 360px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.bm #sidebar a {
+	font-size: 14px;
+}
+
+.bm #main p,
+.bm #main ul li {
+	text-align: justify;
+	margin: 0px;
+}
+
+.bm #main p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bm #footer {
+	clear: both;   /* per fare in modo che il footer resti in basso e non abbia elementi in float intorno*/
+	background: #099;
+	padding: 10px 20px 20px 20px;
+}
+
+.bm #footer h2 {
+	background: none;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.bm #footer p {
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0;
+}
+
+.bm a {
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
