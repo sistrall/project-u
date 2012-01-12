@@ -4,6 +4,7 @@
 
 body {
 	background-color: #EEDBBD;
+	
 }
 
 h1{
@@ -31,3 +32,52 @@ dt{
 table{
 	background: #B5B251;
 }
+
+body.bm {
+	background: #cdcdcd;
+}
+
+body.bm  #wrapper {
+	width:850px;
+	margin:30px auto;
+}
+
+body.bm  #content {
+	padding: 5px 20px 30px 20px;
+	background:#b4b4b4;
+} 
+
+body.bm  #header {
+	margin-bottom: 30px;
+	padding-left:10px;
+	background:#FFFFFF;
+	height: 120px;
+}
+
+body.bm img {
+	border: none;
+}
+
+body.bm  span#banner {
+	float: right;
+}
+
+body.bm  #main h2 {
+	padding:5px 15px 5px 15px;
+}
+
+body.bm  #main p {
+	margin-left:15px;
+	padding:10px 15px 10px 15px;
+	margin-right:15px;
+}
+
+body.bm  #main img {
+	margin-left: 30px;
+}
+
+.bm #content a:hover img {
+	border:10px solid #cdcdcd;
+}
+
+
