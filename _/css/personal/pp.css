@@ -1,3 +1,27 @@
 body {
   background:#6F0;
+  font-family:Verdana, Geneva, sans-serif;
+  padding-left: 18px;
+}
+#Titolo{
+	text-align:center;
+    text-shadow: 5px 2px 1px #f7f7f7;
+    filter: dropshadow(color=#f7f7f7, offx=5, offy=2); 
+}
+#link{
+	text-align:center;
+}
+	
+	
+#menu{
+	float:left;
+	background:#C06;
+	font-family:Arial, Helvetica, sans-serif;
+	width:500px;
+}
+#menudx{
+	float:right;
+	background:#C06;
+	font-family:Arial, Helvetica, sans-serif;
+	width:500px;	
 }

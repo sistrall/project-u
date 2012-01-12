@@ -2,34 +2,19 @@
 /* CSS Document */
 
 body {
-  background:#474747;
+  background:#F90;
 }
 
-dt {
-	color:#6C7A7D;
+h1,h2,dt {
+	color:#FFF;
 	text-shadow: 3px 3px 2px #000000;
 filter: dropshadow(color=#000000, offx=3, offy=3); 
 }
 
-p,td,dd{
-   color:#FFF;	
-}
-	
 #inventory table tr:hover td {
-  background: #569DA6;
+  background: #FF0;
+}
+#glossary:hover dd {
+  background:#C00
 }
 
-h1 {
-	background:#333;
-	text-align: center;
-    font-size: 50px;
-    color:#FFF;
-}
-
-h2,h3 {
-	margin: 20px 0 0 20px;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #222;
-    text-shadow: 0px 2px 3px #666;
-}
