@@ -1,4 +1,4 @@
-﻿Analisi e redesign del sito dell'Università di Torino.
+Analisi e redesign del sito dell'Università di Torino.
 ==========================================================
 
 Progetto sviluppato come esercitazione di gruppo durante il corso "Tecnico produzione multimedia e pagine web" 2011/2012.
@@ -18,21 +18,21 @@ Autori
 Gli autori del progetto sono allievi iscritti al corso "Tecnico produzione multimedia e pagine web" tenuto duranto l'anno formativo 2011/2012 presso la sede di Torino dell'agenzia formativa [Immaginazione e lavoro](http://www.immaginazioneelavoro.it/).
 
 
-* Tursi Paolo
-* Fabiana Metello (fm)
+* Andrea Pallacci (pa)
+* Annalisa D'Acquarica (ad)
 * Brilli Corinna (cb)
-* Gabriele Marangon (gm)
-* Rizzo Elisabetta (er)
-* Tania Epifani (eg)
-* Sara Borasi (sb)
-* Paolo Picci (pp)
-* Stefania Sirelli (si)
 * Claudia Piazza (cp)
 * Daniele Raele (dr)
-* Andrea Pallacci (pa)
-* Sara Puggioni (sp)
-* Annalisa D'Acquarica (ad)
 * Denis Sereno (ds)
+* Fabiana Metello (fm)
+* Gabriele Marangon (gm)
+* Paolo Picci (pp)
+* Rizzo Elisabetta (er)
+* Sara Borasi (sb)
+* Sara Puggioni (sp)
+* Stefania Sirelli (si)
+* Tania Epifani (eg)
+* Tursi Paolo (pt)
 
 Il progetto si è avvalso anche della collaborazione di alcuni docenti:
 
