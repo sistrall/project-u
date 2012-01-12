@@ -34,11 +34,50 @@ h2,h3 {
     text-shadow: 0px 2px 3px #666;
 }
 
-body.benchmarking{
-	background: #900; 
-	 }
-	 
-body.benchmarking h1{
+body.bm{
 	background: #900;
 	
+	 }
+	 
+body.bm h1{
+	background: white;
+	text-align: left;
+	color:#FFF;
 	}
+.bm #wrapper{
+	width: 870px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left:auto;
+	background-attachment: scroll;
+	
+	}
+.bm #header {
+	background:white;
+}
+.bm #content {
+	background-color: #0000;	
+	width: 870px;
+	position:relative;
+	margin:0 auto;
+}
+.bm #content h2 {
+	text-align:center;
+	}
+.bm #content h3 {
+	text-align:center;
+	}
+.bm li {
+	color:white;
+}
+.bm #main1 {
+	float:left;
+	width:300px;
+	}
+	
+	.bm #main2 {
+	float:right;
+	width:300px;
+	}
+	
