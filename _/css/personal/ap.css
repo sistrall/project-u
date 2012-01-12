@@ -21,9 +21,7 @@ text-align: center;
 }
 .bm #navigation1{
 color:black;
-float:left;
-
-
+float:right;
 padding:0.4em;
 width:450px;
 -moz-border-radius:18px;
@@ -50,7 +48,6 @@ filter: alpha(opacity=82);
 
 }
 .bm #navigation2{
-float:right;
 
 padding:0.4em;
 width:450px;
