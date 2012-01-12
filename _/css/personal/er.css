@@ -1,5 +1,5 @@
 body{
-	background:#FC0;
+	background:#0080C0;
 	}
 	
 	#intro h1{
@@ -38,11 +38,12 @@ body{
 	#inventory tbody{
 	background:#FFF;}
 	
-	body.bm {
+	body bm {
 		background:#CCC;}
 	
 	.bm #wrapper {
-		background:url(../../../benchmarking/er/design/bgLogoSfondo.gif)}		
+		background:url(../../../../template/IMG/Colore-piuma-&-nbsp-Cenni-storici-1324285635_93.jpg);
+		background:}		
 	
 	.bm #header {
 	padding-top: 15px;
@@ -60,30 +61,26 @@ body{
 	float: right;
 	width: 600px;
 	margin-right: 15px;
-	background-color:trasparent;
-}
-.bm #sidebar {
+	background-color:trasparent;}
+	
+	.bm #sidebar {
 	float: left;
 	width: 240px;
-	margin-left: 15px;
-}
+	margin-left: 15px;}
 
-.bm #sidebar ul {
-	margin-top: 15px;	
-}
+	.bm #sidebar ul {
+	margin-top: 15px;}
 
-.bm #sidebar ul li ul {
+	.bm #sidebar ul li ul {
 	font:Arial, Helvetica, sans-serif;
-	margin-left: 30px;
-}
+	margin-left: 30px;}
 
-.bm #sidebar a {
+	.bm #sidebar a {
 	color:#003;
 	display: block;
 	padding: 10px;
-	margin-left: 15px;
-}	
-.bm #footer {
+	margin-left: 15px;}	
+	
+	.bm #footer {
 	background:#999;
-	font:"Arial Black", Gadget, sans-serif;
-}
+	font:"Arial Black", Gadget, sans-serif;}
