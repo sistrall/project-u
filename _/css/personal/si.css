@@ -146,7 +146,7 @@ padding: 5px 10px 10px 10px;
 font-size:13px;
 }
 
-.bm #img_avvisi{
+.bm .img_avvisi{
 float:left;
 width:50px;
  height:50px;
@@ -154,7 +154,7 @@ width:50px;
  margin-right:10px;
 }
 
-.bm #link_utili{
+.bm .link_utili{
 float:left;
 background-color:#e9d7a8;
 padding-left:5px;
@@ -164,7 +164,12 @@ width: 175px;
 font-size:12px;
 }
 
-.bm #riga{
+.bm .link_utili p {
+	margin: 2px auto 3px 2px;	
+}
+	
+	
+.bm .riga{
 float:left;
 width:240px;
 height:50px;
