@@ -5,52 +5,57 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Benchmarking: MIT di Boston</title>
 
-<link href="stile.css" rel="stylesheet" type="text/css" />
+<link href="../../_/css/personal/cp.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="benchmarking">
+<body class="bm">
 
 <div id="wrapper">
 
-<div id="header">
-  <h1>Benchmarking: MIT di Boston</h1>
-	</div>
+  <div id="header">
+    <h1><img src="img/header.gif" width="650" height="200" alt="Benchmarking: MIT di Boston" /></h1>
+  </div>
     
-    <div id="content">
+  <div id="content">
     
-    	<div id="sidebar">
-    	<ul>
-    	  <li>Vai al sito <a href="http://web.mit.edu/">MIT di Boston</a></li>
-    	  <li>Considerazioni sulla home page</li>
-    	  <li>Le voci di menu</li>
-    	  <li>Problematiche</li>
-    	</ul>
-      </div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="http://web.mit.edu/">Vai al sito MIT di boston</a><a href="#">Considerazioni sulla home page</a></li>
+    	<li><a href="#">Le voci di menu</a></li>
+    	<li><a href="#">Problematiche</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </div>
       
-<div id="main">
-  <h2>Considerazioni sulla home page</h2>
-  <p>Il sito internet del <a href="http://web.mit.edu/">Massachussets Institute of Technology</a> presenta una home page molto semplice e chiara da consultare. Sulla sinistra troviamo il menu di navigazione principale che riporta i collegamenti alle voci più importanti relative a:</p>
-  <ul>
-	<li>istituto, la storia, la mappa e i servizi;</li>
-	<li>modalità di ammissione all'istituto</li>
-	<li>educazione</li>
-	<li>ricerca</li>
-	<li>comunità, che comprende studenti, genitori, staff ed ex allievi</li>
-	<li>la vita al MIT, in cui si trovano link a varie attività ricreative per gli studenti</li>
-	<li>iniziative</li>
-	<li>impatti</li>
-  	</ul>
-  <h2>Le voci di menu</h2>
-<p>Ogni pagina principale nella home page riporta anche i link alle pagine interne. Queste si ritrovano anche quando si entra in ogni voce principale: è interessante notare che ogni pagina interna rimanda ad un link esterno, un sito a parte completamente dedicato all'argomento. In questo modo si evita di complicare il sito dell'Istituto sovraccaricandolo di contenuti.</p>
-<h2>Problematiche</h2>
-<p>Il sito non offre la possibilità di leggerlo in altre lingue. Questo è un limite importante, anche perché sono numerosi gli studenti stranieri che ambiscono ad un posto in questo Istituto.</p>
+  <div id="main">
+    <h2>Considerazioni sulla home page</h2>
+    <p>Il sito internet del <a href="http://web.mit.edu/">Massachussets Institute of Technology</a> presenta una home page molto semplice e chiara da consultare. Sulla sinistra troviamo il menu di navigazione principale che riporta i collegamenti alle voci più importanti relative a:</p>
+      <ul>
+	    <li>istituto, storia, mappa e servizi;</li>
+	    <li>modalità di ammissione all'istituto</li>
+	    <li>educazione</li>
+	    <li>ricerca</li>
+	    <li>comunità, che comprende studenti, genitori, staff ed ex allievi</li>
+	    <li>la vita al MIT, in cui si trovano link a varie attività ricreative per gli studenti</li>
+	    <li>iniziative</li>
+	    <li>impatti</li>
+      </ul>
+      <p>La struttura della home page è molto semplice, composta da una serie di &lt;div&gt;: è costituita da un <em>header</em>, che contiene il logo e il campo di ricerca;, un <em>content</em> che raggruppa i vari link alle pagine, alle news e agli eventi; un <em>footer</em> in cui troviamo ulteriori link e contatti, infine un <em>wrapper</em> che contiene i div precedenti. A sua volta il <em>content</em> raggruppa tre menu di navigazione il cui contenuto è organizzato secondo elenchi con tag &lt;ul&gt; e &lt;li&gt;.</p>
+      <p>Nell'<em>header</em> è utilizzato il linguaggio javascript per produrre una stringa che aggiorna quotidianamente la data.</p>
+<h2>Le voci di menu</h2>
+  <p>Ogni pagina principale nella home page riporta anche i link alle pagine interne. Queste si ritrovano anche quando si entra in ogni voce principale: è interessante notare che ogni pagina interna rimanda ad un link esterno, un sito a parte completamente dedicato all'argomento. In questo modo si evita di complicare il sito dell'Istituto sovraccaricandolo di contenuti.</p>
+  <h2>Problematiche</h2>
+  <p>Il sito non offre la possibilità di leggerlo in altre lingue. Questo è un limite importante, anche perché sono numerosi gli studenti stranieri che ambiscono ad un posto in questo Istituto.</p>
+
+  </div>
 
 </div>
 
-<div id="footer">
-	
-
-
+  <div id="footer">
+    <h2>Contatti:</h2>
+    <p>77 Massachusetts Avenue,  Cambridge, MA 02139-4307</p>
+    <p> 617.253.1000  |  TTY 617.258.934</p>
+  </div>
 </div>
 </body>
 
