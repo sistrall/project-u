@@ -1,0 +1,88 @@
+body{
+	background:#F7F9F9;
+}
+#glossary dl dd:hover{
+	background:#0C3;
+}
+h1{
+font-family:Arial, Helvetica, sans-serif;
+   text-shadow: 1px 1px 1px #000000;
+   filter: dropshadow(color=#000000, offx=1, offy=1);
+   text-align: center;
+   font-size: 50px;
+  
+}
+.bm body{
+background:grey;
+
+}
+.bm  h1{
+text-align: center;
+}
+.bm #navigation1{
+color:black;
+float:right;
+padding:0.4em;
+width:450px;
+-moz-border-radius:18px;
+-webkit-border-radius:18px;
+border-radius:18px;
+-moz-box-shadow:0px 0px 12px #000000;
+-webkit-box-shadow:0px 0px 12px #000000;
+box-shadow:0px 0px 12px #000000;
+background-image: -moz-linear-gradient(top, transparent, #00acff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(transparent), to(#00acff));
+background-image: -o-linear-gradient(top, transparent, #00acff);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#00acff');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#00acff')";
+background-image: linear-gradient(top, transparent, #00acff);
+-moz-background-clip: padding-box;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+opacity:0.82;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=82);
+filter: alpha(opacity=82);
+
+
+
+
+}
+.bm #navigation2{
+
+padding:0.4em;
+width:450px;
+-moz-border-radius:18px;
+-webkit-border-radius:18px;
+border-radius:18px;
+-moz-box-shadow:0px 0px 12px #000000;
+-webkit-box-shadow:0px 0px 12px #000000;
+box-shadow:0px 0px 12px #000000;
+background-image: -moz-linear-gradient(top, transparent, #00acff);
+background-image: -webkit-gradient(linear, center top, center bottom, from(transparent), to(#00acff));
+background-image: -o-linear-gradient(top, transparent, #00acff);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#00acff');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#00acff')";
+background-image: linear-gradient(top, transparent, #00acff);
+-moz-background-clip: padding-box;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+opacity:0.82;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=82);
+filter: alpha(opacity=82);
+
+}
+
+.bm  a{
+color:#53C7FF;
+}
+.bm  a:hover{
+color:white;
+
+}
+
+.bm h4 , h2{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:30px;
+}
+
+

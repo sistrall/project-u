@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#F60;
+	}
+	
+h1,h2{
+	color:#FC0;
+	}
+	
+#glossary dl dd:hover {
+  background: #F90;
+	}
+	
+strong:hover{
+	color:#0C0;
+}
+
+
+
+

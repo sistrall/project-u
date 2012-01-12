@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    height: 50%;
+    overflow: hidden;
+    width: 50%;
+	background-image:url(../../design/3_opendagbeeldwebsiteii.jpg) repeat-y transparent;
+	
+	
+	
+}
+
+body {
+    
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+	width: 1000px; height: 832px;
+}
+
