@@ -1,8 +1,179 @@
 body {
-  background: #EAF2E5;
+  background: #FFEBB8;
+  color:#222;
 }
+
 #glossary dl dd:hover {
   background: #ccc;
   }
   
-  
+.bm #header {
+	background-color:#8A7E70;
+	width: 960px;
+	height:150px;
+}
+
+.bm #wrapper {
+	height:auto;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+/*#header {
+background-color:#999999;
+width: 960px;
+height:150px;
+}*/
+
+.bm h1 {
+text-align:center;
+padding-top: 30px;
+}
+
+.bm #menu_sx {
+position:relative;
+float:left;
+width: 260px;
+height:300px;
+background-color:#8A7E70;
+margin-right: 10px;
+margin-top:0px;
+}
+
+.bm #colonna_sx {
+position:relative;
+float:left;
+width: 260px;
+height:700px;
+background-color:#FFEBB8;
+margin-right: 10px;
+margin-top:10px;
+}
+
+.bm #colonna_dx {
+float:right;
+width: 680px;
+height:auto;
+min-height: 400px;
+margin-right: 10px;
+margin-top:10px;
+
+}
+
+.bm ul {
+padding:0 ;
+text-transform:uppercase;
+}
+
+.bm ul li {
+margin: 0 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+width: 190px;
+height: 18px;
+background-color:#FCC188;
+background-image:
+url(../../../benchmarking/si/img/bussola.png);
+background-repeat:no-repeat;
+background-position: 180px;
+list-style:none;	
+}
+
+.bm #footer{
+background-color:#999;
+padding-left: 30px;
+padding-bottom: 20px;
+float:left;
+text-align:center;
+padding-top: 20px;
+}
+
+.bm .img_colonna_sx{
+padding-top: 23px;
+}
+
+.bm ul li a{
+text-decoration:none;
+color:#666666;
+}
+
+.bm ul li a:link{
+text-decoration:none;
+color:#666666;
+}
+
+.bm ul li a:hover{
+text-decoration:none;
+color:#333333;
+}
+
+.bm ul li a:visited{
+text-decoration:none;
+color:#666666;
+}
+
+.bm ul li.ateneo:hover{
+background-color:#FF9933;
+}
+
+ul li.studenti:hover{
+background-color:#454975;
+}
+
+ul li.didattica:hover{
+background-color:#BCC754;
+}
+
+ul li.ricerca:hover{
+background-color:#64B3A4;
+}
+
+ul li.servizi:hover{
+background-color:#F2B3B5;
+}
+
+.bm #avvisi_colonnasx{
+position:relative;
+float:left;
+width:240px;
+height:175px;
+margin-top: 20px;
+border:solid 1px #8A7E70;
+padding: 5px 10px 10px 10px;
+font-size:13px;
+}
+
+.bm .img_avvisi{
+float:left;
+width:50px;
+ height:50px;
+ background-color:#000000;
+ margin-right:10px;
+}
+
+.bm .link_utili{
+float:left;
+background-color:#e9d7a8;
+padding-left:5px;
+padding-top:5px;
+height:45px;
+width: 175px;
+font-size:12px;
+}
+
+.bm .link_utili p {
+	margin: 2px auto 3px 2px;	
+}
+	
+	
+.bm .riga{
+float:left;
+width:240px;
+height:50px;
+margin-bottom:5px;
+margin-top:5px;
+}
+
