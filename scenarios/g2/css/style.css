@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti|Enriqueta);
+@import url(http://fonts.googleapis.com/css?family=Enriqueta);
+
+.scenario {
+	margin:0px;
+	background:url(../img/sfondo_righe.gif);
+	background-repeat: repeat;
+}
+
+#header {
+	width: 460px;
+	margin: 0px auto 0px auto;
+	
+}
+#header h2{
+	font-size:16px;
+	font-family:'Calligraffitti', cursive;
+	padding-left:20px;
+	padding-top:4px;
+	margin-bottom:0px;
+	
+}
+#header h1 {
+	font-size:30px;
+	font-family:'Enriqueta', serif;
+	padding-left:20px;
+	margin-top:0px;
+	margin-bottom:18px;
+}
+#main_primo{
+	width: 460px;
+	height: auto;
+	background-color:#FFF;
+	margin: 0px auto 0px auto;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+#main_esterno{
+	width: 460px;
+	height: auto;
+	background-color:#FFF;
+	margin: 0px auto 0px auto;
+	-webkit-box-shadow: inset 0px 0px 22px 5px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: inset 0px 0px 22px 5px rgba(0, 0, 0, 0.7);
+box-shadow: inset 0px 0px 22px 5px rgba(0, 0, 0, 0.7); 
+
+}
+
+#main_interno {
+	width: 430px;
+	background-color:trasparent;
+	margin: 0px auto 0px auto;
+	border: 15px solid #FFF;
+	
+}
+#main_interno h3 {
+	padding: 0px 15px 5px 15px;
+	font-family:'Enriqueta', serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+#main_interno p{
+	padding: 5px 15px 5px 15px;
+	font-family:'Enriqueta', serif;
+	font-size: 14px;
+	
+}
+
+#main_interno .fine {
+	padding-bottom: 83px;
+}
+
+#footer p{
+	font-size:12px;
+	font-family:'Calligraffitti', cursive;
+	text-align:center;
+	padding-top: 17px;
+	padding-bottom: 100px;
+}
