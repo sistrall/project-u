@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(http://fonts.googleapis.com/css?family=Enriqueta);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+   background:white;
+   background-image: url(../img/bkg.gif);
+   background-repeat: repeat;
+   font-family: 'Enriqueta', serif;
+}
+
+h3 {
+   font-family: 'Calligraffitti', cursive;
+}
+
+h2 {
+   margin:0;
+}
+
+p {
+   margin:0;
+   padding:0;
+   font-size:12px;
+   line-height: 14pt;
+
+}
+
+#wrapper{
+   width:460px;
+   margin: 0 auto;
+}
+
+#header{
+   padding:0 30px;
+
+}
+
+#header h1{
+   margin:-3px 0 0 0;
+   padding:0 0 20px 0;
+   color:#42381c;
+   font-size:36px;
+}
+
+#header h3 {
+   margin:0;
+   padding:20px 0 10px 0;
+   font-size:14px;
+   color:#42381c;
+}
+
+#main{
+   background:#FFF;
+   -webkit-box-shadow:  0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+      
+}
+
+#content{
+   border:15px solid white;
+   padding:20px 15px;
+   color:#535353;
+   
+   -webkit-box-shadow: inset 0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: inset 0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+   box-shadow: inset 0px 0px 30px 3px rgba(0, 0, 0, 0.2); 
+}
+
+#content h2{
+   font-size:18px;
+   line-height:16pt;
+}
+
+#footer{
+	padding:29px 0 0 0;
+	font-size:12px;
+	text-align:center;
+	color:#535353;
+
+}
+
