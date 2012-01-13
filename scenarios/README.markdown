@@ -15,7 +15,7 @@ I gruppi sono formati da:
   * Tania Epifani (eg)
 4. G4
   * Andrea Pallacci (pa)
-  * Paolo Picci (pp)
+  * Federico Paradiso (fp)
 5. G5
   * Denis Sereno (ds)
   * Fabiana Metello (fm)
@@ -25,3 +25,6 @@ I gruppi sono formati da:
 7. G7
   * Daniele Raele (dr)
   * Gabriele Marangon (gm)
+8. G8
+  * Paolo Picci (pp)
+  * Andrea Pallacci (pa)
