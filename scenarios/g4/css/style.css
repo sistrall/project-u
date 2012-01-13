@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width:490px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	}
+#header_top {
+	margin-left:40px;
+	font-size: 11px;
+}
+#header{
+	padding-left:40px;
+	margin-bottom:-25px;
+	margin-top:-20px;
+	}
+#header h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+	color: #43381c;
+}
+#main_1{
+	background-attachment: scroll;
+	background-image: url(../img/img-top.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top:34px;
+	}
+#main_3{
+	background-attachment: scroll;
+	background-image: url(../img/img-content.png);
+	background-repeat: repeat-y;
+	background-position: center center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#main_2{
+	background-attachment: scroll;
+	background-image: url(../img/img-bottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom:36px;
+}
+#text{
+	width:408px;
+	margin-left:40px;
+	}
+#text h2{
+	font-size:18px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: normal;
+	color: #5e5e5e;
+}
+#footer{
+	clear: both;
+	font-size: 11px;
+	font-style: italic;
+	margin-left:100px;
+	font-weight: normal;
+	}
+body{
+	background-attachment: fixed;
+	background-image: url(../img/sfondo.jpg);
+	background-repeat: repeat;
+	background-position: left;
+}
