@@ -10,6 +10,8 @@ body {
 	margin: auto;
 	width: 460px;
 	padding-left: 30px;
+	padding-left: 60px;
+
 }
 
 #header h3 {
@@ -49,6 +51,7 @@ body {
 	font-family: 'Enriqueta', serif;
 	font-size: 12px;
 	color: #535353;
+
 }
 
 #content h2 {
